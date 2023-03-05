@@ -1,0 +1,46 @@
+body {
+   background-color: rgb(120, 218, 219);
+}
+h1 {
+    text-align: center;
+    background-color: white;
+    color: chocolate;
+}
+h2 {
+    text-align: center;
+    background-color: white;
+    color: chocolate;
+}
+p {
+    text-align: right;
+    background-color: chocolate;
+    color: white; 
+}
+.primeiro {
+    background-image: url(imagem/Marceloviana.jpg);
+    background-size: 100%;
+    height: 266px;
+    width: 202px;
+    margin: 10px;
+  border-radius: 50%;
+}
+.segundo {
+    background-image: url(imagem/natureza.jpg);
+    height: 132px;
+    width: 200px;
+    margin: auto;
+    padding: 0%;
+    border-radius: 10%;   
+}
+.terceiro {
+    background-image: url(imagem/logo.png);
+    
+    
+    max-width:230px;
+    
+    min-height:240px ;
+    margin: auto;
+    
+}
+
+   

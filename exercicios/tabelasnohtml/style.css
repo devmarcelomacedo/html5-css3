@@ -1,0 +1,29 @@
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {  
+    height: 400px;
+    width: 400px;
+    border-collapse: collapse;
+}
+tr.linha {
+    background-color: rgb(175, 172, 172);
+}
+td {
+  border: 1px solid black; 
+  padding: 8px;
+  text-align: center; /*Alinhamento horiziontal left=esquerda e right=direita*/ 
+  vertical-align:middle ; /*alinhamento vertical top=emcima e alinhamento vertical bottom=embaixo*/
+}
+tr.dado {
+    background-color: yellow;
+}
+td.dado {
+    color: rgb(255, 5, 59);
+}
+.numero {
+    text-align: right;
+}
+</style>

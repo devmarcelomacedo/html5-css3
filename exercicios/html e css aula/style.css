@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: brown;
+
+}
+h1#principal{
+    text-align: center;
+}
+h2{
+    color: rgb(7, 55, 185);
+   
+}
+h2#principal{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}

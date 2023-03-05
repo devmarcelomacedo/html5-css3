@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário do Esporte</title>
+    <style>
+        body {
+            background-color: rgb(95, 233, 233);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .ef {
+            background-color: gray;
+            color: white;
+        }
+        .fu {
+            background-color: blue;
+            color: rgba(236, 240, 248, 0.952);
+        }
+        .ba {
+            background-color: red;
+            color: rgb(241, 241, 241);
+        }
+        .vo {
+            background-color: blue;
+            color: white;
+        }
+        .na {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Esporte e Vida</h1>
+    <form>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="Sexo" id="isxmas" value="M"> Masculino
+            <input type="radio" name="Sexo" id="isfem" value="F"> Feminino
+        </fieldset>
+        <form>
+            <fieldset>
+                <input type="password" name="Senha" id="isen">Senha
+            </fieldset>
+        </form>
+
+    </form>
+    <form action="Cadastro.html" method="get" autocomplete="on">
+        <fieldset>
+            <legend class="ef">Esportes Favoritos</legend>
+            <input type="checkbox" name="esFut" id="iesfut"> <label for="iesfut" class="fu">Futebol</label> <br>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas" class="ba">Basquete</label> <br>
+            <input type="checkbox" name="esvol" id="iesvol"> <label for="iesvol" class="vo" >Voleibol</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat" class="na">Natação</label>
+
+        </fieldset>
+    </form>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    
+</body>
+</html>

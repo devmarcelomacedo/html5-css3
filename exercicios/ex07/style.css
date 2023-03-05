@@ -1,0 +1,43 @@
+body {
+
+}
+nav {
+    background-color: lightslategray;
+    display: inline-flex;
+    border: 6px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    text-align: justify;
+}
+div {
+    background-color:lightslategray;
+    color: white;
+    display: inline-block;
+    border: 3px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    text-align: initial;
+   
+}
+nav:hover {
+    background-color: yellow;
+}
+.principal {
+
+}
+nav > .principal {
+    display: none;
+    text-align: justify;
+    padding-left: 
+    ;
+}
+nav:hover > p {
+    display: block;
+    color: rgb(168, 23, 23);
+}
+div:hover {
+    background-color: black;
+}

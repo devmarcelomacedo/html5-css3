@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4- Mais sobre escopo</title>
+    <script src="script.JS"></script>
+</head>
+<body>
+    <H1>Mais sobre Escopo</H1>
+    <h2>
+        Atualmente com <b><mark>let</mark></b> e <b><mark>const</mark></b> <br> qualquer bloco de código pode separar seu erscopo <br>
+        (um if por exemplo); <br>
+        Isso é muito bom separa os contextos, com <b><mark>var</mark></b>
+        isso não acontecia <br>
+        Ou seja, podemos ter escopos diferentes não só com funções;
+    </h2>
+
+    <h2><u>Com let podemos:</u> <mark>Separar uma variável do escopo global e de função</mark></h2>
+    <u>
+        <h3><b>Sobre os prâmetros de uma função é correto afirmar que :</b> <br>
+    </u>
+        <mark>Não há um número limite, aceita strings <br> e também podemos utilizar em funções com return</mark>
+    </h3>
+
+    <h2>let x = 10; <br>
+        if(x > 5) { <br> 
+            let x = 20; <br>
+            x++; <br>
+            console.log(x); <!--escopo if--> <br>
+     }    
+     
+     <br> console.log(x) <!--escopo global-->
+
+        
+    </h2>
+    
+</body>
+</html>

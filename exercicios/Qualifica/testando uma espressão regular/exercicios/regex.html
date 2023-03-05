@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regex Exercicios </title>
+<link rel="stylesheet" href="style.css">
+<script src="script.JS"></script>
+</head>
+<body>
+    <h1>Exercicios </h1>
+    <h2>regex</h2>
+    <h3>Questão 01</h3>
+    <h3>
+        <ul>
+            sobre regex é correto afirmar:
+            <li>Não podemos filtrar por letras minusculas</li>
+            <li>Não podemos filtrar por letras Maisculas</li>
+            <li><mark> podemos filtrar por letras minusculas</mark></li>
+            <li> podemos filtrar por letras Maisculas</li>
+            <li> podemos filtrar por letras Maisculas e Minusculas</li>
+        </ul>
+    </h3>
+    <h3>Exercicio 02 </h3>
+    <h3>
+        <ul>
+            <mark>
+                Crie uma regex que aceite só letras maisculas; <br>
+                depois teste; <br>
+            </mark>
+            <LI>
+                    const validarMaiuscula = /[A-Z]/; <br>
+
+                    console.log(validarMaiuscula.test("testando")); <br>
+                    console.log(validarMaiuscula.test("123456")); <br>
+                    console.log(validarMaiuscula.test("TESTANDO"));
+            </LI>
+        </ul>
+    </h3>
+    <h3>Exercicio 03</h3>
+    <h3>
+        <ul>
+            <mark>Crie uma regex que só aceite strings terminadas com ID;</mark>
+            <li>
+                
+const validarId = /\d+ID\b/; <br>
+
+console.log(validarId.test("3456582ID")); <br>
+console.log(validarId.test("3456582")); <br>
+console.log(validarId.test("asd")); <br>
+console.log(validarId.test("asdasdID")); <br>
+console.log(validarId.test("3456582ID"));
+            </li>
+        </ul>
+    </h3>
+    <h3>Exercici0 04</h3>
+    <h3>
+        <ul>
+            <mark>
+                Crie uma regex que aceite a seguinte expressão "Marca: nomeDaMarca"; <br>
+                Onde nomeDaMarca pode variar para Nike, Adidas, Puma, Asics; <br>
+                Depois teste;
+            </mark>
+
+        </ul>
+        <li>
+            const validarMarca = /Marca: (Nike|Adidas|Puma|Asics)/;
+
+console.log(validarMarca.test("Marca: Nike")); <br>
+console.log(validarMarca.test("Marca: asd")); <br>
+console.log(validarMarca.test("Marca:")); <br>
+console.log(validarMarca.test("123321")); <br>
+console.log(validarMarca.test("Nike"));
+        </li>
+    </h3>
+
+</body>
+</html>

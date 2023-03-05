@@ -1,0 +1,47 @@
+
+style {
+
+}
+body {
+    background-color: aquamarine;
+}
+h1 {
+    background-color: blue;
+    color: red;
+}
+table {
+   
+   color: #ffffff;
+   border: 3px solid black;
+   border-collapse: collapse;
+   padding: 10px;
+   margin: 10px;
+   height: 180px;
+   width: 500px;
+
+}
+tr.linha {
+    background-color:red;
+    text-align: center;
+}
+td {
+    background-color: rgb(13, 68, 170);
+    border: 1px solid black;
+    padding: 8px;
+}
+tr.dado {
+    color: rgb(12, 209, 12);
+    text-align: center;
+    
+}
+tr.dados {
+    text-align: center;
+    color: rgb(250, 213, 4);
+}
+td.titulo {
+    background-color: rgb(71, 70, 63);
+    text-align: center;
+}
+.at {
+    background-color: rgb(71, 70, 63);
+}

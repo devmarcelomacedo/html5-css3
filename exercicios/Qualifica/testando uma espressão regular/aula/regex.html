@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.JS"></script>
+</head>
+<body>
+    <mark>const reg1 = new RegExp('bola'); <br></mark>
+
+console.log(reg1.test("Tem bola?")); <br>
+console.log(reg1.test("Não tem ")); <br><br>
+
+
+<mark>const reg2 = /bola/; <br></mark> <br>
+
+<mark>let text = 'Tem bola na rede'; <br></mark> <br>
+
+console.log(reg2.test("tem bola?")); <br>
+console.log(reg2.test("Não tem")); <br>
+console.log(reg2.test(text)); <br>
+
+console.log(/quadrado/.test("Onde tem um quadrado")); <br>
+console.log(/quadrado/.test("123456789 quadrado789456123"));
+    
+</body>
+</html>
