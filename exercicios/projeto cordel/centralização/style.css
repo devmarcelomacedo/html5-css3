@@ -1,2 +1,67 @@
 @charset="UTF-8";
 
+  * { /* O* SIGNIFICA RESETAR */
+         margin: 0px;
+        padding: 0px;
+  }
+
+  html, body {
+         min-height: 100vh; /*TAMANHO DO CORPO DA VIEW PORT HEAT (vh)*/
+         background-color: rgb(120, 117, 117);
+  }
+
+  header{ /*COR DO CABEÇALHO*/
+        background-color: black;
+        color: white;
+        text-align: center;
+  }
+
+  header > h1 { /* H1 CORDEL MODERNO*/
+        padding-top: 50px; /*PADDING-TOP DE CIMA PARA BAIXO */
+        font-variant: small-caps; /*UM MOPDELO DE LETRA TODA MAIUSCULA*/
+  }
+
+  header > p { /*P MILTON DUARTE*/
+        padding-bottom: 50px; /*PADDING-BOTTOM DE BAIXO PARA CIMA*/
+  }
+
+ 
+  a { /*ÂNCORA DO CABEÇALHO MILTON DUARTE. RODAPÉ MARCELO VIANA*/
+    color: white;
+    text-decoration: none;  /*O TEXT-DECORATION:NONE FAZ OCULTAR O SUBLINHADO*/
+    font-weight: bolder;
+  }
+
+  
+  a:hover { /*HOVER >> PASSE O MOUSE*/
+    text-decoration: underline; /*O TEXT- DECORATION: UNDERLINE FAZ AO PASSAR O MOUSE O SUBLINHADO APARECER*/
+  }
+
+  section { /*SECTION VAI SERVIR TANTO PARA CLASS NORMAL COMO PARA IMAGEM*/
+        padding-top: 10vh; /*VAI SER 10vh DE CIMA PARA BBAIXO*/
+        padding-bottom: 10vh;/*VAI SER 10vh DE BAIXO PARA CIMA*/
+        /*OS PADDING FARÁ O EFEITO DA ROLAGEWM APARECER */
+        line-height: 2em; /*LINHA DE DISTÂNCIAMENTO DE ESPAÇAMENTO ALTURA */
+        padding-left: 30px;/*AFASTA AS LETRAS PARA DENTRO*/
+  }
+
+   .imagem > p {
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.186);
+  }
+
+  .normal {/*ONDE TIVER A CLASS NORMAL CORPO BRANCO*/
+        background-color: white;
+  }
+  .imagem {/*ONDE TIVER CLASS IMAGEM CORPO PRETO e LETRAS BRANCAS*/
+    background-color: rgb(39, 38, 38);
+    color: white;
+  }
+
+  footer { /*RODAPÉ*/
+        background-color: rgb(13, 12, 12);
+        color: white;
+        text-align: center;
+        padding: 10px; /*PADDING >> ESPAÇAMENTO INTERNO*/
+
+  }
