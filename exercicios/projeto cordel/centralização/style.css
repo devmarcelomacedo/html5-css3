@@ -61,11 +61,13 @@
   #img01 {
       background-image: url('../centralização/imag/background001.jpg');
       background-position: right center;
+      font-family: 'Sriracha', cursive;
   }
 
   #img02 {
       background-image: url('../centralização/imag/background002.jpg');
       background-position: right center;
+      font-family:  'Poppins', sans-serif;
   }
 
    .imagem > p {
