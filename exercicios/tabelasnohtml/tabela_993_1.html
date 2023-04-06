@@ -4,53 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
         table {
-            width: 300px;
-            height: 300px;
             border-collapse: collapse;
-            border: 1px solid black;
-            text-align: center;
+            width: 300px;
         }
-        
+
         td {
-            border: 1px solid black;
+           border:1px solid black ; 
+           padding: 10px;
+           text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Mesclagem com letras</h1>
+    <h1>Mesclagem de Tabela</h1>  
     <table>
         <tr>
-            <td colspan="4">A</td>
+            <td>A</td>
+            <td  colspan="2">B</td>
             
-        
-            <td rowspan="4">B</td>
         </tr>
         <tr>
-            <td rowspan="4">C</td>
-            <td>D</td>
+            <td rowspan="3">D</td>
             <td>E</td>
-            <td>F</td>
+            <td rowspan="2">F</td>
         </tr>
         <tr>
-            <td>G</td>
+            
             <td>H</td>
-            <td>I</td>
-         </tr>
-        <tr>
-            <td>J</td>
-            <td>L</td>
-            <td>M</td>
+            
         </tr>
         <tr>
-            <td colspan="5">N</td>
+            
+            
+            <td colspan="2">M</td>
         </tr>
-    </table>   
+    </table>
 </body>
 </html>
