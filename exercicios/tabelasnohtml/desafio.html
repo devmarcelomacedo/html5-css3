@@ -11,17 +11,37 @@
         }
         table {
 
-            width: 400px;
+            
             border-collapse: collapse;
         }
-        td {
+        .todos {
+            background-color: gray;
+            color: white;
+        }
+        td, th {
             border: 1px solid black;
-            padding: 8px;
+            padding: 10px;
             text-align: center;
         }
         .medidas {
             background-color: gray;
+            text-align: left;
             color: white;
+        }
+        .hum {
+            background-color: rgb(124, 119, 119);
+            text-align: left;
+            color: white;
+        }
+        .mim {
+            background-color: gray;
+            text-align: center;
+            color: white;
+        }
+        .me {
+            background-color: gray;
+            color: white;
+            text-align: center;
         }
         
     </style>
@@ -30,31 +50,24 @@
     <h1>Desafio tabelas</h1>
     <table>
         <tr>
-            <td rowspan="3">Área</td>
-            <td rowspan="3">Disciplina</td>
-            <td colspan="2">Notas</td>
-            <td rowspan="3">Média</td>
+            <th rowspan="2" class="todos">Área</th>
+            <th rowspan="2" class="todos">Disciplina</th>
+            <th colspan="2" class="todos">Notas</th>
+            <th rowspan="2" class="todos">Média</th>class="todos"
+        </tr> 
+        <tr>
+            <td class="todos">nota 1 </td>
+            <td class="todos">nota 2</td>
         </tr>
         <tr>
-            <td>nota 1 </td>
-            <td>nota 2</td>
+            <th rowspan="5">Exatas</th>
         </tr>
-        <tr>
-            <td>0,0</td>
-            <td>0,0</td>
-        </tr>
-
-        <tr>
-            <td rowspan="5">Exatas</td>
-        </tr>
-
         <tr>
             <td>matematica</td>
             <td>0,0</td>
             <td>0,0</td>
             <td>0,0</td>
         </tr>
-
         <tr>
             <td>quimica</td>
             <td>0,0</td>
@@ -68,23 +81,20 @@
             <td>0,0</td>
             <td>0,0</td>
         </tr>
-
         <tr>
             <td>biologia</td>
             <td>0,0</td>
             <td>0,0</td>
             <td>0,0</td>
         </tr>
-
         <tr>
-            <td colspan="4" class="medidas">medias exatas</td>
-            <td>0,0</td>
+            <th colspan="4" class="medidas">Médias de exatas</th>
+            <td class="mim">0,0</td>
+            
         </tr>
-
         <tr>
-            <td rowspan="3">humanas</td>
+            <th rowspan="3">humanas</th>
         </tr>
-
         <tr>
             <td>historia</td>
             <td>0,0</td>
@@ -92,7 +102,6 @@
             <td>0,0</td>
             
         </tr>
-
         <tr>
             <td>Geografia</td>
             <td>0,0</td>
@@ -101,8 +110,8 @@
         </tr>
 
         <tr>
-            <td colspan="4">media de humanas</td>
-            <td>0,0</td>
+            <th colspan="4" class="hum">Média de humanas</th>
+            <td class="me">0,0</td>
         </tr>
     </table>
 </body>
